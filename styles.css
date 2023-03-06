@@ -1,5 +1,73 @@
 body {
-    background-color: rgb(139, 96, 182);
-    padding: 3em;
-    font-family: 'Unbounded', cursive;
+    background-color: beige;
+     padding: 1em; 
+   
+    
+}
+
+/* TYPOGRAPHY ========================= */
+
+h1{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h3{
+    
+}
+
+h4{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+h5{
+    font-family: 'Inter', sans-serif;
+    font-size:.85rem;
+
+}
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+  ul{
+    font-family: 'Inter', sans-serif;
+}  
+
+
+
+/* MEDIA QUEERIES ======= */
+
+@media screen and (min-width: 800px)   {
+
+    
+    body {
+        min-height: 100vh;   
+    
+    }
+
+    main {
+
+        margin: 50px;
+        max-width: 900px;
+    }
+
+.learned {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: span 1;
+}
+
+
+h2{
+
+    text-align: left;
+}
+
 }
