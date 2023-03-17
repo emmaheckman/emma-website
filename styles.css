@@ -46,6 +46,13 @@ p{
 @media screen and (min-width: 800px)   {
 
     
+    .learned{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: span 2;
+    }
+
     body {
         min-height: 100vh;   
     
@@ -57,17 +64,13 @@ p{
         max-width: 900px;
     }
 
-.learned {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: span 1;
-}
+
 
 
 h2{
 
-    text-align: left;
+     text-align: left; 
 }
 
 }
